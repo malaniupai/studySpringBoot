@@ -11,4 +11,8 @@ public class UserService {
     public String del(){
         return "delete is success";
     }
+
+    public String upd(){
+        return "update is success";
+    }
 }

@@ -20,4 +20,10 @@ public class UserController {
     public String del(){
         return us.del();
     }
+
+    @RequestMapping("upd")
+    public String upd(){
+        return us.upd();
+    }
+
 }
